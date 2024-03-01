@@ -1,0 +1,35 @@
+.content {
+  width: 85%;
+  min-height: 750px;
+  min-width: 600px;
+  background-color: $secondary-color;
+
+  > * {
+    padding-left: 30px;
+  }
+
+  /* Here is where I increased paragraph and list size without affecting the nav div
+  I changed this parameter to affect both p and ul, then set the font size and line height */
+  p, ul {
+    width: 55%;
+    min-width: 550px;
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+
+  img, video {
+    height: 350px;
+    width: 550px;
+    margin-bottom: 30px;
+  }
+
+  ul {
+    padding-left: 50px;
+    list-style: square;
+  }
+
+  :link, :hover, :visited {
+    color: rgba(87, 45, 108, 0.82);
+    text-decoration: underline;
+  }
+}
